@@ -65,3 +65,6 @@ npm run dev
 ```
 pnpm run dev
 ```
+
+#### See proyect in http://localhost:5173/
+#### Proyect developed in React + Typescritpt + Vite

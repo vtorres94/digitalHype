@@ -42,7 +42,8 @@ const Strings: React.FC = () => {
                     data.last_name = word;
                     break;
                 case 2:
-                    data.id = word;
+                    data.id = Number(word) ? word : "";
+                    return
                     break;
                 default:
                     return

@@ -1,5 +1,7 @@
 .footer {
     height: 250px !important;
     width: 100%;
-    background-color: #242424 !important;
+    background-color: rgba(0,0,0,.87) !important;
+    position: absolute;
+    bottom: 0;
 }

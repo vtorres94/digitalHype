@@ -2,7 +2,7 @@ import React from "react";
 import { Grid } from 'semantic-ui-react'
 import reactLogo from '../assets/react.svg'
 import viteLogo from '../assets/vite.svg'
-import '../App.css'
+import '../css/header.css'
 
 const Header: React.FC = () => {
     return(

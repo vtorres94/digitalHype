@@ -25,7 +25,7 @@ An example input would be “Robert000Smith000123”. The function should return
 
 ```
 
-## REQUERIMENTS
+## REQUIREMENTS
 
 ```
 Values in the string can be separated by any number of zeros. 
@@ -71,3 +71,5 @@ pnpm run dev
 
 #### See proyect in http://localhost:5173/
 #### Proyect developed in React + Typescritpt + Vite
+
+#### LIVE APP: https://digital-hype.netlify.app/

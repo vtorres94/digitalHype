@@ -20,7 +20,7 @@ const Strings: React.FC = () => {
 
     const destructure = (str:string) => {
         let data:IData = initialData;
-        const words = str.split('0');
+        const words = str.replace(/[^a-zA-Z-0-9]/g, "").split('0');
 
         if(!words || words.length === 1) {
             data.id = "";
@@ -34,6 +34,7 @@ const Strings: React.FC = () => {
 
         let counter = 0;
         words.forEach((word: string) => {
+            
             switch(counter) {
                 case 0:
                     data.first_name = word;
@@ -66,7 +67,7 @@ const Strings: React.FC = () => {
             <Grid.Row>
                 <Grid.Column>
                     <Header>
-                        Strings destructure
+                        Message Decoder
                     </Header>
                 </Grid.Column>
             </Grid.Row>

@@ -5,3 +5,9 @@
     position: absolute;
     bottom: 0;
 }
+
+.owner-title {
+    color: lightgray;
+    text-align: center;
+    margin-top: 40px !important;
+}
